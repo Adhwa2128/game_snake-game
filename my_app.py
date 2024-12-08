@@ -59,7 +59,8 @@ def main():
 
         while game_close:
             screen.fill(BLACK)
-            message("Game Over! Press R to Restart or Q to Quit", RED, WIDTH // 12, HEIGHT // 3)
+            message("Game Over!", RED, WIDTH // 3, HEIGHT // 4)
+            message("Press R to Restart or Q to Quit", RED, WIDTH // 7, HEIGHT // 3)
             message(f"Your Score: {score}", WHITE, WIDTH // 3, HEIGHT // 2)
             pygame.display.update()
 
